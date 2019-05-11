@@ -1,0 +1,10 @@
+apiVersion: cache.example.com/v1alpha1
+kind: Security
+metadata:
+  name: example-security-test
+spec:
+  # Add fields here
+  type: JWT
+  alias: wso2carbon
+  endpoint: https://wso2apim.wso2.svc:9443
+  credentials: example-secrets

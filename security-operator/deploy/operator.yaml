@@ -16,9 +16,9 @@ spec:
       containers:
         - name: security-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: shehani123/example-security1-operator:v0.0.1
           command:
-          - security-operator
+            - security-operator
           imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE
